@@ -7,6 +7,10 @@ public class classSingleton {
 
     String s;
 
+    private classSingleton(){
+
+    }
+
     public static classSingleton initialize(String s){
         classSingleton singleton=new classSingleton();
         singleton.s=s;
